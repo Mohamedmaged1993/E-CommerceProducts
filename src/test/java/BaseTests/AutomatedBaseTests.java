@@ -42,29 +42,7 @@ public class AutomatedBaseTests {
         sheinProductPage.selectSizeLocator();
         sheinProductPage.addToBag();
         sheinProductPage.clickOnCartItemsIcon();
-        sheinProductPage.viewBagLocator();
+        //sheinProductPage.viewBagLocator();
 
     }
-
-    @Test(priority = 2)
-    public void AddProduct() {
-        abercrombieProductPage.selectProductSize();
-        sheinProductPage.addToBag();
-        abercrombieProductPage.naviagteToCheckout();
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
