@@ -23,10 +23,23 @@ public class AbercrombieProductPage {
         selectProduct.click();
     }
 
+    public void clickAddToBagBTN(){
+        wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.AddToCartBTNLocator));
+        WebElement addToBagLocatorBTN = driver.findElement(ObjectRepo.AddToCartBTNLocator);
+        addToBagLocatorBTN.click();
+    }
+
     public void naviagteToCheckout(){
 
         wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.ClickOnItems));
         WebElement checkoutNavigation = driver.findElement(ObjectRepo.ClickOnItems);
         checkoutNavigation.click();
     }
+    public void clickOnCheckoutBTNLocator(){
+
+        wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.ClickOnCheckotBTNLocator));
+        WebElement checkoutBTNLocator = driver.findElement(ObjectRepo.ClickOnCheckotBTNLocator);
+        checkoutBTNLocator.click();
+    }
+
 }

@@ -40,7 +40,9 @@ public class ProhibitedBaseTests {
     public void AddProduct() {
         abercrombieProductPage.selectProductSize();
         sheinProductPage.addToBag();
+        abercrombieProductPage.clickAddToBagBTN();
         abercrombieProductPage.naviagteToCheckout();
+        abercrombieProductPage.clickOnCheckoutBTNLocator();
     }
 
 }
