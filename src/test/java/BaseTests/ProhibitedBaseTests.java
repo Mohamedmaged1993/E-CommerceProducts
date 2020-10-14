@@ -39,7 +39,6 @@ public class ProhibitedBaseTests {
     @Test(priority = 1)
     public void AddProduct() {
         abercrombieProductPage.selectProductSize();
-        sheinProductPage.addToBag();
         abercrombieProductPage.clickAddToBagBTN();
         abercrombieProductPage.naviagteToCheckout();
         abercrombieProductPage.clickOnCheckoutBTNLocator();

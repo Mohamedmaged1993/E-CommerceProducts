@@ -37,8 +37,8 @@ public class AbercrombieProductPage {
     }
     public void clickOnCheckoutBTNLocator(){
 
-        wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.ClickOnCheckotBTNLocator));
-        WebElement checkoutBTNLocator = driver.findElement(ObjectRepo.ClickOnCheckotBTNLocator);
+        wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.ClickOnCheckoutBTNLocator));
+        WebElement checkoutBTNLocator = driver.findElement(ObjectRepo.ClickOnCheckoutBTNLocator);
         checkoutBTNLocator.click();
     }
 
