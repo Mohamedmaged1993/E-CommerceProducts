@@ -2,15 +2,13 @@
 Automation framework for Web Application (E-Commerce)
 
 #### *Description*
-This project build with maven framework , there are many great and positive challanges as : 
 1- Handling All Xpaths inside the project in one class 
-2- Naming conventions is clear enough to understand 
-3- Handling 4 different E-Commerce Websites and every web site have its own challange  
+3- Handling 4 different E-Commerce Websites and every web site have its own methods and classes   
 
 #### *Test Data and Test Classes *
 
 - All Test data inisde  "config.properties" file.
-- src >>main>>Java>>PageObjects *PageObjects Includes all Pages starts with NameOfWebsite_mainfunctionality_page , inisde every class includes its own methods 
+- PageObjects Includes all Pages starts with NameOfWebsite_mainfunctionality_page , inisde every class includes its own methods 
 - src >>main>>Java>>Utilities *Utilities includes 2 java classes first one is :PropertiesConfig.java configuration and handling config.properties file.
 - src >>main>>Java>>Utilities *Utilities ObjectRepo Identify all element locators inside the project 
 - src >>test>>Java>>Base The file includes configuration for test runs and priorties for every test this file only includes tests.
