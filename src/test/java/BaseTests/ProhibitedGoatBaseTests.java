@@ -38,6 +38,7 @@ public class ProhibitedGoatBaseTests {
         goatsSneakersPage.selectSneakers();
 
     }
+
     @AfterClass
     public void afterClass() {
         driver.quit();

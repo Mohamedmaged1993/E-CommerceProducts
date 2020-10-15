@@ -17,12 +17,14 @@ public class SheinCartPage {
         this.driver = driver;
         wait = new WebDriverWait(this.driver, 30);
     }
+
     public void securlyCheckout() {
         wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.SecurityCheckOutBTNLocator));
         WebElement checkoutBTN = driver.findElement(ObjectRepo.SecurityCheckOutBTNLocator);
         checkoutBTN.click();
     }
-    public void fillSignUpDataAndSubmit( String mail_Address, String pass, String confirmPass) {
+
+    public void fillSignUpDataAndSubmit(String mail_Address, String pass, String confirmPass) {
 
         driver.findElement(emailField).sendKeys(mail_Address);
         driver.findElement(passwordField).sendKeys(pass);

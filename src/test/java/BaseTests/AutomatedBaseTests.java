@@ -45,6 +45,7 @@ public class AutomatedBaseTests {
         sheinProductPage.clickOnCartItemsIcon();
         sheinCartPage.securlyCheckout();
     }
+
     @AfterClass
     public void afterClass() {
         driver.quit();

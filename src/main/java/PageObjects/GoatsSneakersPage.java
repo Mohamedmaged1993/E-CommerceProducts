@@ -10,18 +10,19 @@ public class GoatsSneakersPage {
     WebDriver driver;
     WebDriverWait wait;
 
-    public GoatsSneakersPage (WebDriver driver) {
+    public GoatsSneakersPage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(this.driver, 30);
     }
 
-    public void noThanksLocator(){
+    public void noThanksLocator() {
 
         wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.NoThanksCurrency));
         WebElement selectNoBTN = driver.findElement(ObjectRepo.NoThanksCurrency);
         selectNoBTN.click();
     }
-    public void selectSneakers(){
+
+    public void selectSneakers() {
 
         wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.SneakersSelection));
         WebElement selectSneakersBTN = driver.findElement(ObjectRepo.SneakersSelection);

@@ -8,7 +8,7 @@ public class PropertiesConfig {
 
     Properties properties;
 
-    public  String getProperty(String value) {
+    public String getProperty(String value) {
         properties = new Properties();
         InputStream stream = getClass().getClassLoader().getResourceAsStream("config.properties");
 

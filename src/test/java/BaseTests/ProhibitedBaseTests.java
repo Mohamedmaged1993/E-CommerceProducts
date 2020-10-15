@@ -44,11 +44,11 @@ public class ProhibitedBaseTests {
         abercrombieProductPage.naviagteToCheckout();
         abercrombieProductPage.clickOnCheckoutBTNLocator();
     }
+
     @BeforeClass
     public void afterClass() {
         driver.quit();
     }
-
 
 
 }
