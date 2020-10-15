@@ -5,9 +5,9 @@ Automation framework for Web Application (E-Commerce)
 
 E-commerceProducts is automation script build with java selenium
 
-1- Handling All Xpaths inside the project in one class 
-2- Handling 4 different E-Commerce Websites and every web site have its own methods and classes   
-3- implement Generic test scenarion by Behavior driven development at TestScenarios.feature file
+- Handling All Xpaths inside the project in one class 
+- Handling 4 different E-Commerce Websites and every web site have its own methods and classes   
+- implement Generic test scenarion by Behavior driven development at TestScenarios.feature file
 
 #### *Test Data and Test Classes *
 
