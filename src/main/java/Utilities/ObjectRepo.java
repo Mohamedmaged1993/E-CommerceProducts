@@ -7,9 +7,8 @@ public class ObjectRepo {
 //shein
     public static By InnerSizeSelection = By.xpath("//span[contains(text(), \"EUR35\")]");
     public static By AddToBagBTNLocator = By.xpath("//button[contains(text(),'Add To Bag')]");
-    public static By NavigateToCheckoutBTN = By.xpath("//span[@class='cart-num she-v-cloak-none']");
-    public static By ViewBagBTNLocator = By.linkText("view bag");
-    public static By SecurityCheckOutBTNLocator = By.xpath("//button[@class='she-btn-black she-btn-xl j-cart-check']");
+    public static By NavigateToCheckoutBTN = By.xpath("//i[contains(@class, 'iconfont-critical icon-gouwudai')]");
+    public static By SecurityCheckOutBTNLocator = By.xpath("//button[contains(@class, 'she-btn-black she-btn-xl j-cart-check')]");
     public static By emailField = By.name("email");
     public static By passwordField = By.name("password");
     public static By confirmPasswordField = By.name("confirmpassword");

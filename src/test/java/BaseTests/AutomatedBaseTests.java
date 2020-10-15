@@ -42,6 +42,6 @@ public class AutomatedBaseTests {
         sheinProductPage.selectSizeLocator();
         sheinProductPage.addToBag();
         sheinProductPage.clickOnCartItemsIcon();
-
+        sheinCartPage.securlyCheckout();
     }
 }

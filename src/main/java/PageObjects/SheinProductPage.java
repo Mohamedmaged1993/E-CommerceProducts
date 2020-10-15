@@ -41,12 +41,5 @@ public class SheinProductPage {
         cartItemsIcon.click();
     }
 
-    //access to ViewBagBTNLocator
-
-    public void viewBagLocator() {
-        wait.until(ExpectedConditions.elementToBeClickable(ObjectRepo.ViewBagBTNLocator));
-        WebElement viewBag = driver.findElement(ObjectRepo.ViewBagBTNLocator);
-        viewBag.click();
-    }
 
 }
