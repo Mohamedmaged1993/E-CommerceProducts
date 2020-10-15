@@ -7,7 +7,7 @@ E-commerceProducts is automation script build with java selenium
 
 - Handling All Xpaths inside the project in one class 
 - Handling 4 different E-Commerce Websites and every web site have its own methods and classes   
-- implement Generic test scenarion by Behavior driven development at TestScenarios.feature file
+- Implement Generic test scenarios by Behavior driven development at TestScenarios.feature file
 
 #### *Test Data and Test Classes *
 
