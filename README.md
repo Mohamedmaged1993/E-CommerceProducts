@@ -2,16 +2,17 @@
 Automation framework for Web Application (E-Commerce)
 
 #### *Description*
+E-commerceProducts is automation script build with java selenium
 1- Handling All Xpaths inside the project in one class 
-3- Handling 4 different E-Commerce Websites and every web site have its own methods and classes   
+2- Handling 4 different E-Commerce Websites and every web site have its own methods and classes   
 
 #### *Test Data and Test Classes *
 
 - All Test data inisde  "config.properties" file.
 - PageObjects Includes all Pages starts with NameOfWebsite_mainfunctionality_page , inisde every class includes its own methods 
-- src >>main>>Java>>Utilities *Utilities includes 2 java classes first one is :PropertiesConfig.java configuration and handling config.properties file.
-- src >>main>>Java>>Utilities *Utilities ObjectRepo Identify all element locators inside the project 
-- src >>test>>Java>>Base The file includes configuration for test runs and priorties for every test this file only includes tests.
+- Utilities Package includes 2 java classes first one is :PropertiesConfig.java configuration and handling config.properties file.
+- Utilities ObjectRepo Identify all element locators inside the project 
+- Base The file includes configuration for test runs and priorties for every test this file only includes tests.
 
 #### *Getting Started*
 
@@ -28,7 +29,7 @@ Automation framework for Web Application (E-Commerce)
 
 ### *Tests*
 
-To Run the code go to src >>test>>Java>>Base it includes 2 files every file includes 2 different websites to run them. 
+To Run the code go to Base Package it includes 2 files every file includes 2 different websites to run them. 
 
 #### *Technology Used* 
 
@@ -37,3 +38,9 @@ Java, TestNG, Selenium, MavenFramework Used: Page Object Model
 #### *Features* 
 
 This project will help every one to build His/Her own framework with organized mindset , also different element locators challanges applied could help.
+
+
+##### *Notes*
+
+-Prohibited web sites detect that you are not human so the automation script failed.
+
