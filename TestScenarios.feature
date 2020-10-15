@@ -44,7 +44,7 @@ Feature: https://www.6pm.com/p/timberland-brooklyn-earthkeepers-ph-fabric-ox/pro
 
   Scenario Outline: Verify that all the links and banners are redirecting to correct product/category pages and none of the links are broken
     Given navigate to "6pm"url
-    And   I should menu items displayed on screen
+    And   menu items displayed on screen
     Examples:
       | category_name | category_item_name | product_name | target_url                                                                                                                                                                                                        |
       | SHOES         | Women's            | Boots        | https://www.6pm.com/women-boots/CK_XARCz1wHAAQHiAgMBAhg.zso?s=isNew%2Fdesc%2FgoLiveDate%2Fdesc%2FrecentSalesStyle%2Fdesc%2F&si=4036319%2C4675168%2C4334690%2C4817249%2C4782223%2C4756952%2C4471745%2C4863673&sy=1 |
