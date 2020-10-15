@@ -48,4 +48,5 @@ public class SheinProductPage {
         WebElement viewBag = driver.findElement(ObjectRepo.ViewBagBTNLocator);
         viewBag.click();
     }
+
 }
