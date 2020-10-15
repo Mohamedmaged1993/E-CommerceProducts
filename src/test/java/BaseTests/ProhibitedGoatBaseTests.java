@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -36,5 +37,9 @@ public class ProhibitedGoatBaseTests {
         goatsSneakersPage.noThanksLocator();
         goatsSneakersPage.selectSneakers();
 
+    }
+    @AfterClass
+    public void afterClass() {
+        driver.quit();
     }
 }
